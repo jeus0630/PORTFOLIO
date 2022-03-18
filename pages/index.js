@@ -4,11 +4,14 @@ const Page = () => {
     return (
         <Container>
             <Box borderRadius={"lg"} bg="red" p={3} mb={6} align="center">
-                Hello, I&apos;m Jewoo Ham!
+                Hello, I&apos;m Full-stack Developer!
             </Box>
             <Box display={{md: 'flex'}}>
                 <Box flexGrow={1}>
-                    <Heading></Heading>
+                    <Heading as="h2" variant="page-title">
+                        Jewoo Ham
+                    </Heading>
+                    <p>Digital Craftzman ( Artist / Developer / Designer )</p>
                 </Box>
             </Box>
         </Container>
