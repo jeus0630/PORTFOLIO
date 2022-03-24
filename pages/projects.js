@@ -3,13 +3,15 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
-import thumbStyly from '../public/images/works/styly_eyecatch.png'
-
 import thumbOpensea from '../public/images/works/Opensea.png'
 import thumbPizza from '../public/images/works/Pizza.png'
 import thumbNetflix from '../public/images/works/Netflix.png'
 import thumbTravel from '../public/images/works/Travel.png'
+import thumbLexus from '../public/images/works/Lexus.png'
+import thumbSgmedical from '../public/images/works/Sgmedical.png'
+import thumbOera from '../public/images/works/Oera.png'
+import thumbSandbox from '../public/images/works/Sandbox.png'
+import thumbYanolja from '../public/images/works/Yanolja.png'
 
 const Works = () => (
   <Layout title="Projects">
@@ -21,8 +23,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="opensea" title="Opensea Blockchain" thumbnail={thumbOpensea}>
-            Opensea NFT 사이트의 기능들을 클론 코딩한 프로젝트 입니다. <br></br>
-            NFT Minting, MetaMask를 통한 코인 결제 및 관리자 페이지에서의 유저 관리가 가능합니다.
+            Opensea NFT 사이트의 기능들을 클론 코딩한 프로젝트 입니다.
           </WorkGridItem>
         </Section>
         <Section>
@@ -31,8 +32,7 @@ const Works = () => (
             title="Restaurant"
             thumbnail={thumbPizza}
           >
-            피자 주문이 가능한 레스토랑 프로젝트 입니다. <br></br>
-            페이팔 및 캐쉬 결제가 가능하며 관리자 페이지에서 상품 추가 및 배달 현황 관리가 가능합니다.
+            피자 주문이 가능한 레스토랑 프로젝트 입니다.
           </WorkGridItem>
         </Section>
 
@@ -42,15 +42,12 @@ const Works = () => (
             title="Netflix"
             thumbnail={thumbNetflix}
           >
-            Netflix의 기능들을 클론 코딩한 프로젝트 입니다. <br></br>
-            시리즈 및 영화 시청이 가능하며 관리자 페이지에서 영화 및 시리즈의 CRUD가 가능합니다. <br></br>
-            또한 신규로 유입된 유저를 차트로 제공함으로서 비지니스 현황 파악이 가능합니다.
+            Netflix의 기능들을 클론 코딩한 프로젝트 입니다.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
           <WorkGridItem id="travel" thumbnail={thumbTravel} title="Travel Map">
-            다녀 온 곳에 핀을 꽂아 메모를 남길 수 있는 맵 어플리케이션 프로젝트 입니다. <br></br>
-            여러 사람들과 공유가 가능하며 로그인 기능을 통해 내가 꽂은 핀과 상대방의 핀 구분이 가능합니다.
+            다녀온 곳들에 대해 별점 및 리뷰 등 간단한 메모를 할 수 있는 프로젝트 입니다.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -66,16 +63,47 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem
-            id="inkdrop"
-            thumbnail={thumbModeTokyo}
-            title="mode.tokyo"
+            id="lexus"
+            thumbnail={thumbLexus}
+            title="Lexus"
           >
-            The mode magazine for understanding to personally enjoy Japan
+            도요타의 프리미엄 모델 렉서스 입니다.
           </WorkGridItem>
         </Section>
+
         <Section delay={0.3}>
-          <WorkGridItem id="styly" thumbnail={thumbStyly} title="Styly">
-            A VR Creative tools for fashion brands
+          <WorkGridItem 
+            id="sgmedical"
+            thumbnail={thumbSgmedical}
+            title="SG Medical">
+            씨젠 SG Medical 리뉴얼 사이트 입니다.
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.3}>
+          <WorkGridItem 
+            id="oera"
+            thumbnail={thumbOera}
+            title="Oera">
+            한섬 Oera 런칭 사이트 입니다.
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.3}>
+          <WorkGridItem 
+            id="sandbox"
+            thumbnail={thumbSandbox}
+            title="SANDBOX">
+            MCN 회사 샌드박스의 소개 사이트 입니다.
+          </WorkGridItem>
+        </Section>
+
+        <Section delay={0.3}>
+          <WorkGridItem 
+            id="yanolja"
+            thumbnail={thumbYanolja}
+            title="Yanolja">
+            야놀자 리뉴얼 사이트 입니다.
           </WorkGridItem>
         </Section>
       </SimpleGrid>

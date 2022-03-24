@@ -12,7 +12,7 @@ const Work = () => (
         {/* <Badge>2016-</Badge> */}
       </Title>
       <P style={{'text-indent':'0'}}>
-        Netflix의 기능들을 클론 코딩한 프로젝트 입니다.
+        Netflix의 기능들을 클론 코딩한 프로젝트 입니다. <br></br>
         Admin, Backend, Frontend를 각각 구현함으로서 실제 넷플릭스와 같이 동작하도록 만들었습니다.
       </P>
       <List my={4}>
