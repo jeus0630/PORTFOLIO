@@ -3,11 +3,7 @@ import Section from '../components/section'
 import Paragraph from "../components/paragraph";
 import NextLink from 'next/link'
 import { ChevronRightIcon } from "@chakra-ui/icons";
-import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
-import { GridItem } from '../components/grid-item'
-import thumbYouTube from '../public/images/links/youtube.png'
 
 const Page = () => { 
   return (
@@ -47,7 +43,7 @@ const Page = () => {
         </Container>
         </Layout>
         
-    )
+    )  
 }
 
 export default Page;
