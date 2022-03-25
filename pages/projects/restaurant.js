@@ -34,10 +34,14 @@ const Work = () => (
             https://github.com/jeus0630/PIZZA
           </a>
         </ListItem>
+        <ListItem>
+        <Meta>STACK</Meta>
+          Vercel, Next.js, Mongoose, ReduxToolkit, Typescript
+        </ListItem>
       </List>
 
-      <WorkImage src="/images/works/inkdrop_01.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />
+      <WorkImage src="/images/works/pizza_01.png" alt="pizza" />
+      <WorkImage src="/images/works/pizza_02.png" alt="pizza" />
     </Container>
   </Layout>
 )

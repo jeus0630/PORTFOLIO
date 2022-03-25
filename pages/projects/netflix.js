@@ -40,6 +40,10 @@ const Work = () => (
             https://github.com/jeus0630/NETFLIX
           </a>
         </ListItem>
+        <ListItem>
+        <Meta>STACK</Meta>
+          Heroku, JWT, Firebase, Node.js, Express, Mongoose, React, ReduxToolkit, ReactRouter, Typescript
+        </ListItem>
       </List>
 
       <WorkImage src="/images/works/inkdrop_01.png" alt="Inkdrop" />
