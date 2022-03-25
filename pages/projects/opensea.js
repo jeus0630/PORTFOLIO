@@ -35,10 +35,14 @@ const Work = () => (
             https://github.com/jeus0630/OPENSEA
           </a>
         </ListItem>
+        <ListItem>
+        <Meta>STACK</Meta>
+          Vercel, Next.js, Typescript, Thirdweb, Sanity, MetaMask
+        </ListItem>
       </List>
 
-      <WorkImage src="/images/works/inkdrop_01.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />
+      <WorkImage src="/images/works/opensea_01.png" alt="opensea" />
+      <WorkImage src="/images/works/opensea_02.png" alt="opensea" />
     </Container>
   </Layout>
 )
