@@ -9,7 +9,7 @@ import thumbNetflix from '../public/images/works/Netflix.png'
 import thumbTravel from '../public/images/works/Travel.png'
 import thumbLexus from '../public/images/works/Lexus.png'
 import thumbSgmedical from '../public/images/works/Sgmedical.png'
-import thumbOera from '../public/images/works/Oera.png'
+import thumbOera from '../public/images/works/oera.png'
 import thumbSandbox from '../public/images/works/Sandbox.png'
 import thumbYanolja from '../public/images/works/Yanolja.png'
 
