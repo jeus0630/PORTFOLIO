@@ -30,7 +30,9 @@ const Page = () => {
                     새로운 지식을 습득하고 정리하는 것을 좋아하는 개발자 입니다. <br></br>
                     개발자로서 세상을 더 아름답게 만드는데에 기여하기를 희망합니다. <br></br>
                     <br></br>
-                    <a href="https://github.com/jeus0630" target="_blank" style={{'font-weight':'500'}}><i>Github </i>/  </a><a href="https://velog.io/@jewoo" target="_blank" style={{'font-weight':'500'}}><i>Blog</i> </a>
+                    <a href="https://github.com/jeus0630" target="_blank" style={{'font-weight':'500'}}><i>Github </i>/  </a><a href="https://velog.io/@jewoo" target="_blank" style={{'font-weight':'500'}}><i>Blog</i> </a> <br></br>
+                    <i>프로젝트 섹션에 언급되지 않은 많은 진행중인 또는 완료된 프로젝트들이 깃헙에 있습니다.</i> <br></br>
+                    <i>깃헙을 천천히 둘러봐 주세요.</i>
                 </Paragraph>
                 <Box my={6}>
                     <NextLink href="/projects">
