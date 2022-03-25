@@ -34,10 +34,14 @@ const Work = () => (
             https://github.com/jeus0630/Travel-Map-App
           </a>
         </ListItem>
+        <ListItem>
+        <Meta>STACK</Meta>
+          Heroku, Mapbox, Node.js, Express, Mongoose, React, Typescript
+        </ListItem>
       </List>
 
-      <WorkImage src="/images/works/inkdrop_01.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />
+      <WorkImage src="/images/works/travel_01.png" alt="travel" />
+      <WorkImage src="/images/works/travel_02.png" alt="travel" /> 
     </Container>
   </Layout>
 )
