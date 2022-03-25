@@ -28,8 +28,8 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/works/inkdrop_01.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />
+      <WorkImage src="/images/works/yanolja.png" alt="yanolja" />
+      <WorkImage src="/images/works/yanolja_02.png" alt="yanolja" />
     </Container>
   </Layout>
 )
